@@ -47,12 +47,18 @@ justify-content: center;
 }
 
 .container5{
-    height:500px;
+    height:350px;
     background-color: black;
     display: flex;
     align-items:center;
     justify-self: center;
     text-align: center;
+}
+
+.container6{
+    background-color: brown;
+    height: 100px;
+     
 }
 
 .EM1{
