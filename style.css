@@ -39,6 +39,20 @@
 
 .container4{
 height: 600px;
+background-image: url("assets/tension.jpg");
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+
+.container5{
+    height:500px;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-self: center;
+    text-align: center;
 }
 
 .EM1{
@@ -59,12 +73,22 @@ height: 600px;
     border: 1px solid black;
     height: 400px;
     width: 200px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     border-radius: 30px;
     box-shadow: 10px 5px 5px rgba(17, 0, 255, 0.461);
 }
 
+.EM4{
+    height: 300px;
+    width: 400px;
+}
 
+.EM5{
+  
+    background-color:rgba(5, 5, 91, 0.447) ;
+    padding:10px;
+   
+}
 
 .BL2{
     width: 600px;
@@ -74,7 +98,10 @@ height: 600px;
 }
 
 .BL3{
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
 }
 
 .BL4{
@@ -112,6 +139,7 @@ height: 600px;
     background-position: center;
 }
 
+
 #id1{
     height: 100px;
     width: 100px; 
@@ -123,11 +151,91 @@ color: white;
 
 #id3{
     font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+#id4{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 15px;
+    background:linear-gradient(to bottom, #f70707ab 20%, #1f059198 100%);
+
+}
+
+#id5{
+    color: white;
+}
+
+#id6{
+    margin-left: 25px;
+}
+
+#id7{
+    color: white;
+    margin: 30px;
 }
 
 #CL{
     display: flex;
     justify-content: center;
     background-color:black;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #2d2d2e;
+	background:linear-gradient(to bottom, #01080f 5%, #101112 100%);
+	background-color:#07121c;
+	border-radius:5px;
+	border:1px solid #021121;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+    font-family: 'Playfair Display', serif;
+
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f70707ab 20%, #1f059198 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+p{
+    text-align:center ;
+}
+
+.L1:hover{
+  color: red;
+}
+
+.L2:hover{
+    color: blue;
+}
+
+.L3{
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+a{
+    color: white;
 }
 
