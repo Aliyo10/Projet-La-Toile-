@@ -1,0 +1,133 @@
+*{
+ margin: 0;
+}
+
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+.container1{
+ height: 500px;
+ background-image: url("assets/Bleach-2023-S2.jpg");
+ background-size: cover;
+}
+
+.container2{
+    border: 1px solid black;
+    height: 600px;
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.272), rgba(255, 0, 0, 0.413)),
+                  url("assets/Bleach.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.container3{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+    height: 600px;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.413), rgba(13, 0, 255, 0.272)),
+                  url("assets/quicy.jpg");
+     background-size: cover;
+}
+
+.container4{
+height: 600px;
+}
+
+.EM1{
+    height: 100px;
+    width: 100px;
+}
+
+.EM2{
+    border: 1px solid black;
+    height: 400px;
+    width: 200px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgba(255, 0, 0, 0.461);
+}
+
+.EM3{
+    border: 1px solid black;
+    height: 400px;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgba(17, 0, 255, 0.461);
+}
+
+
+
+.BL2{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BL3{
+    border: 1px solid black;
+}
+
+.BL4{
+    background-image: url("assets/ichigo1.jpg");
+    background-size: cover;
+}
+
+.BL5{
+    background-image: url("assets/Yamamoto.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.BL6{
+    background-image: url("assets/Ichibei.jpg");
+    background-position: center;
+    background-size: cover;  
+}
+
+.BL7{
+    background-image: url("assets/Uryu.jpg");
+    background-size: cover;  
+    background-position: center;
+}
+
+.BL8{
+    background-image: url("assets/Yhwach.jpg");
+    background-size: cover;  
+    background-position: center;
+}
+
+.BL9{
+    background-image: url("assets/jugram.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#id1{
+    height: 100px;
+    width: 100px; 
+}
+
+#id2{
+color: white;
+}
+
+#id3{
+    font-size: 30px;
+}
+
+#CL{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+}
+
